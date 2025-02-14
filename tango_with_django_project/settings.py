@@ -134,3 +134,5 @@ MEDIA_URL = '/media/'
 # Redirect unlogged in users to the login page 
 
 LOGIN_URL = 'rango:login'
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
